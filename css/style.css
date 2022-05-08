@@ -1,0 +1,24 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: sandybrown;
+}
+.wrapper{
+    margin-top: 60px;
+    text-align: center;
+}
+.wrapper h1{
+    font-size: 48px;
+    color: black;
+    margin-bottom: 25px;
+}
+.wrapper  .our_team{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr);
+    width: auto;
+    justify-content: center;
+}
